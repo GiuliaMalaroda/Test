@@ -73,14 +73,19 @@ $font-weight-normal: 400;
 $font-weight-bold: 700;
 $font-weight-bolder: 700;
 
-$line-height-base: 1.5;
-
 $h1-font-size: $font-size-base * 4.20625;
 $h2-font-size: $font-size-base * 3.15625;
 $h3-font-size: $font-size-base * 2.36875;
 $h4-font-size: $font-size-base * 1.775;
 $h5-font-size: $font-size-base * 1.33125;
 $h6-font-size: $font-size-base;
+
+$small-font-size: .75rem;
+
+$line-height-base: 1;
+
+$headings-line-height: 1.25;
+$headings-font-weight: 400;
 
 // GRID
 $grid-breakpoints: (
