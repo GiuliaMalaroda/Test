@@ -1,0 +1,36 @@
+// Fix for SM
+body {
+    @include media-breakpoint-only(xs) {
+        font-size: 14px;
+    }
+}
+
+h1, .h1 {
+    @include media-breakpoint-only(xs) {
+        font-size: 34.8px;
+    }
+}
+
+h2, .h2 {
+    @include media-breakpoint-only(xs) {
+        font-size: 29px;
+    }
+}
+
+h3, .h3 {
+    @include media-breakpoint-only(xs) {
+        font-size: 24.2px;
+    }
+}
+
+h4, .h4 {
+    @include media-breakpoint-only(xs) {
+        font-size: 20.2px;
+    }
+}
+
+h5, .h5 {
+    @include media-breakpoint-only(xs) {
+        font-size: 16.8px; 
+    }
+}

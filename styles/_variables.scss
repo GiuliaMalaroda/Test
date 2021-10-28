@@ -1,0 +1,98 @@
+$black: #000000;
+$grey-dark: #404040;
+$grey: #808080;
+$grey-light: #BFBFBF;
+$white: #FFFFFF;
+
+$danger: #BF2709;
+$warning: #EAC50B;
+$success: #13BF2E;
+
+$eerie-black: #1A1717;
+$raisin-black: #1A1717;
+$venetian-red: #D90011;
+$lavander-blush: #F0E1E2;
+$snow: #FCF7F7;
+$rich-black: #0B0B0D;
+$eerie-blue: #16181C;
+$raisin-blue: #20232B;
+$charcoal: #282D3B;
+$independence: #2E364A;
+
+$colors: (
+    "black": $black,
+    "grey-dark": $grey-dark,
+    "grey": $grey,
+    "grey-light": $grey-light,
+    "white": $white,
+    "danger": $danger,
+    "warning": $warning,
+    "success": $success,
+    "eerie-black": $eerie-black,
+    "raisin-black": $raisin-black,
+    "venetian-red": $venetian-red,
+    "lavander-blush": $lavander-blush,
+    "snow": $snow,
+    "rich-black": $rich-black,
+    "eerie-blue": $eerie-blue,
+    "raisin-blue": $raisin-blue,
+    "charcoal": $charcoal,
+    "independence": $independence
+);
+
+$theme-colors: (
+    "black": $black,
+    "grey-dark": $grey-dark,
+    "grey": $grey,
+    "grey-light": $grey-light,
+    "white": $white,
+    "danger": $danger,
+    "warning": $warning,
+    "success": $success,
+    "eerie-black": $eerie-black,
+    "raisin-black": $raisin-black,
+    "venetian-red": $venetian-red,
+    "lavander-blush": $lavander-blush,
+    "snow": $snow,
+    "rich-black": $rich-black,
+    "eerie-blue": $eerie-blue,
+    "raisin-blue": $raisin-blue,
+    "charcoal": $charcoal,
+    "independence": $independence
+);
+
+$body-color: $black;
+
+$font-family-sans-serif: 'Ubuntu', sans-serif;
+
+$font-size-base: 1rem;
+
+$font-weight-lighter: 400;
+$font-weight-light: 400;
+$font-weight-normal: 400;
+$font-weight-bold: 700;
+$font-weight-bolder: 700;
+
+$line-height-base: 1.5;
+
+$h1-font-size: $font-size-base * 4.20625;
+$h2-font-size: $font-size-base * 3.15625;
+$h3-font-size: $font-size-base * 2.36875;
+$h4-font-size: $font-size-base * 1.775;
+$h5-font-size: $font-size-base * 1.33125;
+$h6-font-size: $font-size-base;
+
+// GRID
+$grid-breakpoints: (
+    xs: 0,
+    sm: 768px,
+    md: 1024px,
+    lg: 1440px,
+    xl: 1920px
+);
+$container-max-widths: (
+    sm: 90%,
+    md: 80%,
+    lg: 75%,
+    xl: 75%
+);
