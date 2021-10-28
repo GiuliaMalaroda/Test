@@ -1,11 +1,12 @@
 @import "./variables";
 @import "~bootstrap/scss/bootstrap";
 
-@import "./typography";
+@import "./typography"; 
+@import "./buttons";
 
 body {
     background-color: transparent !important;
-    
+
     @include media-breakpoint-only(xs) {
         background-color: red;
     }
@@ -16,7 +17,7 @@ body {
 
     @include media-breakpoint-only(md) {
         background-color: blue;
-    }
+    } 
 
     @include media-breakpoint-only(lg) {
         background-color: orange;

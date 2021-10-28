@@ -1,0 +1,204 @@
+// BTN
+.btn {
+    line-height: $lh-body;
+    box-shadow: none !important;
+
+    @include media-breakpoint-only(xs) {
+        font-size: $fs-body-xs;
+        border-radius: $br-btn-xs;
+    }
+
+    &:focus {
+        outline-width: 1px !important;
+        outline-offset: 2px !important;
+        outline-style: solid !important;
+    }
+}
+
+// BTN SMALL
+.btn-sm, .btn-group-sm > .btn {
+    @include media-breakpoint-only(xs) {
+        border-radius: $br-btnSm-xs;
+        font-size: $fs-small-xs;
+    }
+
+    font-size: $small-font-size;
+}
+
+// BTN LARGE
+.btn-lg, .btn-group-lg > .btn {
+    @include media-breakpoint-only(xs) {
+        border-radius: $br-btnLg-xs;
+        font-size: $fs-h5-xs;
+        line-height: $lh-h2Up-xs;
+    }
+
+    font-size: $h5-font-size;
+    line-height: $headings-line-height;
+}
+
+// BTN ICON
+.btn-icon-left,
+.btn-icon-right {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    & > .material-icons {
+        @include media-breakpoint-only(xs) {
+            font-size: $fs-btnIcon-xs;
+        }
+
+        font-size: $fs-btnIcon;
+    }
+
+    &.btn-lg {
+        & > .material-icons {
+            @include media-breakpoint-only(xs) {
+                font-size: $fs-btnIconLg-xs;
+            }
+    
+            font-size: $fs-btnIconLg;
+        }
+    }
+
+    &.btn-sm {
+        & > .material-icons {
+            @include media-breakpoint-only(xs) {
+                font-size: $fs-btnIconSm-xs;
+            }
+    
+            font-size: $fs-btnIconSm;
+        }
+    }
+}
+
+// BTN ICON RIGHT
+.btn-icon-right {
+    & > .material-icons {
+        margin-left: $m-btnIcon;
+    }
+
+    &.btn-lg {
+        & > .material-icons {
+            margin-left: $m-btnIconLg;
+        }
+    }
+
+    &.btn-sm {
+        & > .material-icons {
+            margin-left: $m-btnIconSm;
+        }
+    }
+}
+
+// BTN ICON LEFT
+.btn-icon-left {
+    & > .material-icons {
+        margin-right: $m-btnIcon;
+    }
+
+    &.btn-lg {
+        & > .material-icons {
+            margin-right: $m-btnIconLg;
+        }
+    }
+
+    &.btn-sm {
+        & > .material-icons {
+            margin-right: $m-btnIconSm;
+        }
+    }
+}
+
+// BTN ICON ONLY
+.btn-icon-only {
+    @include media-breakpoint-only(xs) {
+        padding: $p-btnIconOnly-xs;
+    }
+
+    display: flex;
+    padding: $p-btnIconOnly; 
+
+    & > .material-icons {
+        @include media-breakpoint-only(xs) {
+            font-size: $fs-btnIcon-xs;
+        }
+
+        font-size: $fs-btnIcon;
+        line-height: 1;
+    }
+
+    &.btn-lg {
+        @include media-breakpoint-only(xs) {
+            padding: $p-btnIconOnlyLg-xs;
+        }
+
+        padding: $p-btnIconOnlyLg;
+
+        & > .material-icons {
+            @include media-breakpoint-only(xs) {
+                font-size: $fs-btnIconLg-xs;
+            }
+    
+            font-size: $fs-btnIconLg;
+        }
+    }
+
+    &.btn-sm {
+        padding: $p-btnIconOnlySm;
+
+        & > .material-icons {
+            @include media-breakpoint-only(xs) {
+                font-size: $fs-btnIconSm-xs;
+            }
+    
+            font-size: $fs-btnIconSm;
+        }
+    }
+}
+
+// VENETIAN RED
+.btn-venetian-red {
+    &:active,
+    &.active,
+    &:hover {
+        background-color: $venetian-red-hover;
+    }
+
+    &:focus {
+        background-color: $venetian-red;
+        outline-color: $venetian-red !important;
+    }
+}
+
+// RAISIN BLUE
+.btn-raisin-blue {
+    &:active,
+    &.active,
+    &:hover {
+        background-color: $raisin-blue-hover;
+    }
+
+    &:focus {
+        background-color: $raisin-blue;
+        outline-color: $raisin-blue !important;
+    }
+}
+
+// GREY LIGHT
+.btn-grey-light {
+    background-color: $grey-light-05;
+
+    &:active,
+    &.active,
+    &:hover {
+        background-color: $grey-light-05-hover;
+    }
+
+    &:focus {
+        background-color: $grey-light-05;
+        outline-color: $grey-light-05 !important;
+    }
+}

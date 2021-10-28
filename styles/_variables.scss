@@ -2,6 +2,8 @@ $black: #000000;
 $grey-dark: #404040;
 $grey: #808080;
 $grey-light: #BFBFBF;
+$grey-light-05: #DFDFDF;
+$grey-light-05-hover: #B2B2B2;
 $white: #FFFFFF;
 
 $danger: #BF2709;
@@ -11,11 +13,13 @@ $success: #13BF2E;
 $eerie-black: #1A1717;
 $raisin-black: #1A1717;
 $venetian-red: #D90011;
+$venetian-red-hover: #AD000D;
 $lavander-blush: #F0E1E2;
 $snow: #FCF7F7;
 $rich-black: #0B0B0D;
 $eerie-blue: #16181C;
 $raisin-blue: #20232B;
+$raisin-blue-hover: #4C4F55;
 $charcoal: #282D3B;
 $independence: #2E364A;
 
@@ -101,3 +105,68 @@ $container-max-widths: (
     lg: 75%,
     xl: 75%
 );
+
+$lh-body: 1.75;
+$lh-h1: 1;
+$lh-h2Up-xs: 1.2;
+
+$fs-body-xs: 14px;
+$fs-small-xs: 11.8px;
+$fs-h1-xs: 34.8px;
+$fs-h2-xs: 29px;
+$fs-h3-xs: 24.2px;
+$fs-h4-xs: 20.2px;
+$fs-h5-xs: 16.8px;
+
+$ls-h1-xs: -0.8px;
+$ls-h1: -1.5px;
+$ls-h2-xs: -0.8px;
+$ls-h2: -1.13px;
+$ls-h3-xs: -0.2px;
+$ls-h3: -0.38px; 
+
+
+
+
+$link-color: $venetian-red;
+
+
+
+$br-btn-xs: 7px;
+$br-btnSm-xs: 5.5px;
+$br-btnLg-xs: 9px; 
+
+$input-btn-border-width: 0;
+$btn-font-weight: 700;
+
+$input-btn-padding-y: 5px;
+$input-btn-padding-x: 16px;
+$input-btn-padding-y-sm: 4px;
+$input-btn-padding-x-sm: 12px;
+$input-btn-padding-y-lg: 11.5px;
+$input-btn-padding-x-lg: 20px;
+
+$btn-border-radius: 8px;
+$btn-border-radius-sm: 6px;
+$btn-border-radius-lg: 10.5px;
+
+$btn-disabled-opacity: .2;
+
+$fs-btnIcon: 20px;
+$fs-btnIcon-xs: 18px;
+$fs-btnIconLg: 26px;
+$fs-btnIconLg-xs: 22px;
+$fs-btnIconSm: 15px;
+$fs-btnIconSm-xs: 14px;
+
+$m-btnIcon: 5px;
+$m-btnIconLg: 7px;
+$m-btnIconSm: 3px;
+
+$p-btnIconOnly: 9px;
+$p-btnIconOnly-xs: 8.5px; 
+
+$p-btnIconOnlyLg: 12px;
+$p-btnIconOnlyLg-xs: 10.5px; 
+
+$p-btnIconOnlySm: 7px;
